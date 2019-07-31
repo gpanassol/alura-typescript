@@ -1,6 +1,6 @@
 abstract class View<T> {
 
-    private _elemento: JQuery;
+    protected _elemento: JQuery;
 
     constructor(seletor: string) {
 
@@ -13,4 +13,6 @@ abstract class View<T> {
     }
 
     abstract template(model: T): string;
+
 }
+

@@ -7,7 +7,6 @@ class NegociacaoController {
     private _negociacoesView = new NegociacoesView('#negociacoesView');
     private _mensagemView = new MensagemView('#mensagemView');
 
-
     constructor() {
         this._inputData = $('#data');
         this._inputQuantidade = $('#quantidade');
@@ -26,7 +25,8 @@ class NegociacaoController {
         );
 
         this._negociacoes.adiciona(negociacao);
+
         this._negociacoesView.update(this._negociacoes);
-        this._mensagemView.update('Negociação adicionada com sucesso');
+        this._mensagemView.update('Negociação adicionada com sucesso!');
     }
-}   
+}

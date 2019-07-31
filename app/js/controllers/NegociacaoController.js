@@ -13,6 +13,6 @@ class NegociacaoController {
         const negociacao = new Negociacao(new Date(this._inputData.val().replace(/-/g, ',')), parseInt(this._inputQuantidade.val()), parseFloat(this._inputValor.val()));
         this._negociacoes.adiciona(negociacao);
         this._negociacoesView.update(this._negociacoes);
-        this._mensagemView.update('Negociação adicionada com sucesso');
+        this._mensagemView.update('Negociação adicionada com sucesso!');
     }
 }
