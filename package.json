@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/gpanassol/alura-typescript-parte1#readme",
   "devDependencies": {
+    "@types/jquery": "^2.0.42",
     "typescript": "^2.3.2"
   }
 }
