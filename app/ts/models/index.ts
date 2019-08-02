@@ -1,2 +1,2 @@
-export * from './Negociacao'; 
+export * from './Negociacao';
 export * from './Negociacoes';

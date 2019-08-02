@@ -1,7 +1,7 @@
 {
   "name": "alurabank",
   "version": "1.0.0",
-  "description": "Repositorio base para acompanhar o curso do <a href=\"https://cursos.alura.com.br/\">Alura</a> sobre <a href=\"https://cursos.alura.com.br/course/typescript-parte1\">Typescript - parte 1</a>",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +10,8 @@
     "server": "lite-server --baseDir=app",
     "start": "concurrently \"npm run watch\" \"npm run server\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gpanassol/alura-typescript-parte1.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gpanassol/alura-typescript-parte1/issues"
-  },
-  "homepage": "https://github.com/gpanassol/alura-typescript-parte1#readme",
   "devDependencies": {
     "@types/jquery": "^2.0.42",
     "concurrently": "^3.4.0",

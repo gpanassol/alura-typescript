@@ -1,5 +1,5 @@
 import { View } from './View';
-import { Negociacoes } from '../models/index';
+import { Negociacoes } from '../models/Negociacoes';
 
 export class NegociacoesView extends View<Negociacoes> {
 
@@ -31,7 +31,7 @@ export class NegociacoesView extends View<Negociacoes> {
 
             <tfoot>
             </tfoot>
-        </table> 
+        </table>
         `;
     }
 }
